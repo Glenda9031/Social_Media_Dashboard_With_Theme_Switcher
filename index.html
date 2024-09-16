@@ -8,69 +8,120 @@
   <title>Frontend Mentor | Social Media Dashboard with Theme Switcher</title>
   </head>
 <body>
+  <header>
+    <h1>Social Media Dashboard</h1>
+    <p>Total Followers: 23,004</p>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+    <section id="toggle-section">
+      <span id="dark-mode">Dark Mode</span>
+      <label id="toggle">
+        <input type="checkbox" id="checkbox" onclick="themeFunction()" />
+        <span class="slider"></span>
+      </label>
+    </section>
+  </header>
 
-  Dark Mode
+  <main>
+    <section id="main-section">
+      <ul>
+        <li class="main-tiles">
+          <p>
+            <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+            @nathanf
+          </p>
+          <h2>1987 <span>Followers</span></h2>
+          <p class="green">&#9652 12 Today</p>
+        </li>
 
-  
+        <li class="main-tiles">
+          <p>
+            <img src="./images/icon-instagram.svg" alt="Instagram Icon" />
+            @realnathanf
+          </p>
+          <h2>11K <span>Followers</span></h2>
+          <p class="green">&#9652 1099 Today</p>
+        </li>
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+        <li class="main-tiles">
+          <p>
+            <img src="./images/icon-youtube.svg" alt="YouTube Icon" />
+            Nathan F.
+          </p>
+          <h2>8239 <span>Subscribers</span></h2>
+          <p class="red">&#9662 144 Today</p>
+        </li>
+      </ul>
+    </section>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+    <section id="bottom-section">
+      <h3>Overview - Today</h3>
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
+      <ul>
+        <li class="bottom-tiles">
+          <p>Page Views</p>
+          <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+          <p class="green bt-last-p">&#9652 3%</p>
+        </li>
 
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+        <li class="bottom-tiles">
+          <p>Likes</p>
+          <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+          <h4>52</h4>
+          <p class="red bt-last-p">&#9662 2%</p>
+        </li>
 
+        <li class="bottom-tiles">
+          <p>Likes</p>
+          <img src="./images/icon-instagram.svg" alt="Instagram Icon" />
+          <h4>5462</h4>
+          <p class="green bt-last-p">&#9652 2257%</p>
+        </li>
 
+        <li class="bottom-tiles">
+          <p>Likes</p>
+          <img src="./images/icon-instagram.svg" alt="Instagram Icon" />
+          <h4>5462</h4>
+          <p class="green bt-last-p">&#9652 2257%</p>
+        </li>
 
-  Overview - Today
+        <li class="bottom-tiles">
+          <p>Profile Views</p>
+          <img src="./images/icon-instagram.svg" alt="Instagram Icon" />
+          <h4>52k</h4>
+          <p class="green bt-last-p">&#9652 1375%</p>
+        </li>
 
-  Page Views
-  87
-  3%
+        <li class="bottom-tiles">
+          <p>Retweets</p>
+          <img src="./images/icon-twitter.svg" alt="Twitter Icon" />
+          <h4>117</h4>
+          <p class="green bt-last-p">&#9652 303%</p>
+        </li>
 
-  Likes
-  52
-  2%
+        <li class="bottom-tiles">
+          <p>Likes</p>
+          <img src="./images/icon-twitter.svg" alt="Twitter Icon" />
+          <h4>507</h4>
+          <p class="green bt-last-p">&#9652 553%</p>
+        </li>
 
-  Likes
-  5462
-  2257%
+        <li class="bottom-tiles">
+          <p>Likes</p>
+          <img src="./images/icon-youtube.svg" alt="YouTube Icon" />
+          <h4>107</h4>
+          <p class="red bt-last-p">&#9662 19%</p>
+        </li>
 
-  Profile Views
-  52k
-  1375%
+        <li class="bottom-tiles">
+          <p>Total Views</p>
+          <img src="./images/icon-youtube.svg" alt="YouTube Icon" />
+          <h4>1407</h4>
+          <p class="red bt-last-p">&#9662 12%</p>
+        </li>
+      </ul>
+    </section>
+  </main>
 
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
